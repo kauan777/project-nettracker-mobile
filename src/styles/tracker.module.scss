@@ -6,7 +6,7 @@
   .overlay {
     position: relative;
     display: flex;
-    height: 100vh;
+    height: 60vh;
     width: 100%;
 
 
@@ -18,7 +18,7 @@
       flex-direction: column;
 
       background: linear-gradient(180deg, #1b1b1b 0%, #050505 100%);
-      height: 60vh;
+      height: 40vh;
       padding: 0rem 2rem;
 
       .logo {
@@ -37,22 +37,12 @@
         justify-content: center;
         min-height: 250px;
         margin: 0 auto;
-        margin-bottom: -8rem;
+        margin-bottom: -2rem;
         overflow: hidden;
         transition: 2s linear all;
         animation: animate 2s linear infinite;
 
-        h2{
-          font-size: 20px;
-          display: inline-block;
-          padding: 1rem 0rem .2rem 0rem;
-          text-transform: uppercase;
-        }
-
-        span{
-          text-transform: uppercase;
-
-        }
+ 
 
         .tracker {
           padding: 1.2rem;
