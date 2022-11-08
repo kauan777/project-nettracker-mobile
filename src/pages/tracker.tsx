@@ -83,9 +83,8 @@ export default function Tracker() {
                   src="/tracker.webp"
                   alt="Imagem do rastreador"
                 />
-                <Link href="/tracker" className="button-down">
-                  <AiOutlineDoubleRight />
-                </Link>
+                <h2>Novo rastreador Nettracker</h2>
+                <span>Arraste para o lado</span>
               </div>
             </div>
           </section>

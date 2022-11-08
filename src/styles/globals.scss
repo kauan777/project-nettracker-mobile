@@ -27,33 +27,9 @@ a {
   border: none;
   margin: 0 auto;
   font-size: 32px;
-  animation: jumpping 1.5s infinite;
 }
 
-@keyframes jumpping {
-  0% {
-    right: -10px;
-  }
-
-  50% {
-    right: 0px;
-  }
-
-  100% {
-    right: -10px;
-  }
-}
-
-.loading {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-}
-
-#teste{
+#teste {
   display: flex;
   height: 90vh;
 }
-

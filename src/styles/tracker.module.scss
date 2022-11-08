@@ -47,7 +47,13 @@
         h2{
           font-size: 20px;
           display: inline-block;
-          padding: 1rem 0rem;
+          padding: 1rem 0rem .2rem 0rem;
+          text-transform: uppercase;
+        }
+
+        span{
+          text-transform: uppercase;
+
         }
 
         .tracker {
