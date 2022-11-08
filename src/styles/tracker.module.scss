@@ -1,7 +1,6 @@
 .container {
   background: linear-gradient(180deg, #1b1b1b 0%, #000000 100%);
   width: 100%;
-  min-height: 100vh;
   overflow: hidden;
 
   .overlay {
@@ -28,7 +27,6 @@
 
       .imageContainer {
         position: relative;
-        z-index: 1;
 
         width: 99%;
         display: flex;
@@ -62,7 +60,6 @@
           border: 3px solid;
           border-image: linear-gradient(#00a2ff, #33ff00) 1 100%;
 
-          z-index: 1;
           background: linear-gradient(
             152.48deg,
             #000000 -3.58%,
