@@ -83,12 +83,12 @@ export default function Home() {
       </section>
 
       <section className={styles.containerAdvantage}>
-      {advantage.map((item) => (
-        <div className={styles.itemAdvantage} key={item.id}>
-          <h4>{item.title}</h4>
-          <span>{item.description}</span>
-        </div>
-      ))}
+        {advantage.map((item) => (
+          <div className={styles.itemAdvantage} key={item.id}>
+            <h4>{item.title}</h4>
+            <span>{item.description}</span>
+          </div>
+        ))}
       </section>
 
       <hr className={styles.division}></hr>
